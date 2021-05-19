@@ -1,0 +1,447 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+
+/*  */
+@import url(css/animate.css);
+@import url(css/animate.min.css);
+@import url(css/font-awesome.min.css);
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
+body {
+    color: hsla(0,0%,100%,.9);
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.80857;
+    background-color: #24272c;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: whitesmoke;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    opacity: .8
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: hsla(0,0%,100%,.9);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.fadeInUp img {
+    height: 120px;
+}
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .text-block h4 {
+      font-size: 40px;
+      color: #eea412;
+  }
+  .text-block p {
+      font-size: 20px;
+  }
+
+
+
+
+/*------------------------------------------------------------------
+    SECTIONS
+-------------------------------------------------------------------*/
+
+.dbcolor{
+	background: #5b6574;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 120px 0;
+    position: relative;
+    width: 100%;
+}
+
+.parallax.parallax-off {
+    background-attachment: fixed !important;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+    vertical-align: sub;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+
+
+.section.wb {
+    background-color: #24272c;
+}
+
+.section.lb {
+    background-color: #24272c;
+}
+
+.section.db {
+    background-color: #24272c;
+}
+
+.section.color1 {
+    background-color: #24272c;
+}
+.section.cl {
+	background-color: #24272c ;
+}
+
+.hover-btn-new{
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 46px;
+	padding: 0 17px;
+	text-transform: uppercase;
+	position: relative;
+	border: 2px solid #fff;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 2px;
+}
+
+.orange{
+	border-color: #eea412;
+}
+
+
+
+
+.section-title {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: rgb(245, 239, 239);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.section-title h3 {
+    color: rgb(245, 239, 239);
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+
+.section.db h3 {
+    color: #ffffff;
+}
+
+
+.box-slider .first-section{
+	display: table;
+	position: relative;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.logos img {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.logos img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+    MESSAGE BOXES
+-------------------------------------------------------------------*/
+
+.align-items-center{
+	margin-bottom: 30px;
+}
+
+
+.message-box h4 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #eea412;
+}
+
+.message-box h2 {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+    color: rgb(245, 239, 239);
+}
+
+.message-box h3 { 
+    color: rgb(245, 239, 239);
+}
+
+.message-box p {
+    margin-bottom: 20px;
+}
+
+.message-box .lead {
+    padding-top: 10px;
+    font-size: 19px;
+    font-style: italic;
+    color: #999;
+    padding-bottom: 0;
+}
+
+.post-media {
+    position: relative;
+}
+
+.post-media img {
+    width: 100%;
+}
+
+
+
+
+
+
+.section.parallax hr.hr1 {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.stat-wrap h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #999 !important;
+    margin: 0 ;
+    padding: 0;
+    line-height: 1;
+}
+
+.stat-wrap p {
+    font-size: 38px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+    padding: 4px 0 0;
+    line-height: 1 !important;
+}
+.section.cl {
+	background-color: #2d3032;
+}
+.icon_wrap {
+    background-color: #1f1f1f;
+    width: 100px;
+    height: 100px;
+    display: block;
+    line-height: 100px;
+    font-size: 34px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 !important;
+    border: 0 !important;
+}
+body.host_version .first-section .effect-1.slide-btn::after{
+	box-shadow: 0 0 0 2px #2d3032;
+}
+.alignleft {
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
